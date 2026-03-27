@@ -1,0 +1,15 @@
+.galeria {
+  display: flex;
+  overflow: hidden;
+}
+
+.galeria img {
+  width: 200px;
+  margin-right: 15px;
+  animation: carrusel 10s linear infinite;
+}
+
+@keyframes carrusel {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
