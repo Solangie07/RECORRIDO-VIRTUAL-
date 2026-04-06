@@ -1,6 +1,6 @@
 
 body {
-  margin: 5;
+  margin:top;
   font-family: "work sans";
   background: #e8bf2bb5;
 }
@@ -96,7 +96,7 @@ iframe {
 .elemento {
   width: 100vw;
   background-color: #e6da2f36;
-  font-size: 10em;
+  font-size: 20em;
   border:1px black;
 
 }
@@ -105,5 +105,9 @@ iframe {
   .elemento{
     background-color: rgba(244, 244, 123, 0.729);
     font-size: 15em;
+  }
+
+  img{
+    max-width: 100vw;
   }
 }
