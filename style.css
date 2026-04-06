@@ -1,8 +1,8 @@
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
+  margin: 5;
+  font-family: "work sans";
+  background: #e8bf2bb5;
 }
 
 
@@ -28,7 +28,7 @@ section {
   padding: 40px;
   max-width: 1000px;
   margin: 20px auto;
-  background: white;
+  background: rgba(241, 212, 68, 0.885);
   border-radius: 12px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
@@ -66,7 +66,7 @@ iframe {
 .btn {
   display: inline-block;
   padding: 12px 20px;
-  background: #ff914d;
+  background: #f0da34de;
   color: rgba(214, 205, 78, 0.692);
   text-decoration: none;
   border-radius: 6px;
@@ -93,3 +93,17 @@ iframe {
   }
 }
 
+.elemento {
+  width: 100vw;
+  background-color: #e6da2f36;
+  font-size: 10em;
+  border:1px black;
+
+}
+
+@media (max-width:600px) {
+  .elemento{
+    background-color: rgba(244, 244, 123, 0.729);
+    font-size: 15em;
+  }
+}
